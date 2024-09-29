@@ -39,7 +39,6 @@ localStorage.setItem('todos',JSON.stringify(todos))
 //---------------------------------------------------------
   return (
   <Todoprovider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
-    <div>
    <div className="bg-[#172842] h-full py-8 shadow-lg shadow-red-900">
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white bg-neutral-800 ">
                     <h1 className="text-2xl font-bold text-center mb-3 mt-2">To-Do Manager</h1>
@@ -59,14 +58,14 @@ localStorage.setItem('todos',JSON.stringify(todos))
 
                     </div>
                 </div>
-     </div>
-               <div className='flex justify-center'>
-              <a href="https://portfoliox1.vercel.app/">
-                <div className='my-10 bg-[#172842] text-neutral-300 font-semibold text-md h-8 flex justify-center items-center rounded-md cursor-pointer shadow-md w-1/6 shadow-cyan-800  mx-[40%] '>
-                  <button>PortFolio</button>
-            </div></a>
-                       </div>
-      </div>
+               
+            </div>
+            <div>
+              <a href="https://vercel.com/formaxx786s-projects/portfoliox1"><div className='my-10 bg-[#172842] text-neutral-300 font-semibold text-md h-8 flex justify-center items-center rounded-md cursor-pointer shadow-md w-1/6 shadow-cyan-800  mx-[40%] '>
+              <button>
+            PortFolio</button></div></a>
+            </div>
+            
     </Todoprovider>
   )
 }
