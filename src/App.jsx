@@ -39,6 +39,7 @@ localStorage.setItem('todos',JSON.stringify(todos))
 //---------------------------------------------------------
   return (
   <Todoprovider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
+    <div>
    <div className="bg-[#172842] h-full py-8 shadow-lg shadow-red-900">
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white bg-neutral-800 ">
                     <h1 className="text-2xl font-bold text-center mb-3 mt-2">To-Do Manager</h1>
@@ -65,6 +66,7 @@ localStorage.setItem('todos',JSON.stringify(todos))
                   <button>PortFolio</button>
             </div></a>
                        </div>
+      </div>
     </Todoprovider>
   )
 }
