@@ -62,6 +62,7 @@ localStorage.setItem('todos',JSON.stringify(todos))
               <a href="https://portfoliox1.vercel.app/">
                 <div className='my-10 bg-[#172842] text-neutral-300 font-semibold text-md h-8 flex justify-center items-center rounded-md cursor-pointer shadow-md w-1/6 shadow-cyan-800  '>
             PortFolio</div></a>
+                       </div>
             </div>
     </Todoprovider>
   )
