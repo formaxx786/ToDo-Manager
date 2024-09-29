@@ -61,7 +61,7 @@ localStorage.setItem('todos',JSON.stringify(todos))
                
             </div>
             <div>
-              <a href="https://vercel.com/formaxx786s-projects/portfoliox1"><div className='my-10 bg-[#172842] text-neutral-300 font-semibold text-md h-8 flex justify-center items-center rounded-md cursor-pointer shadow-md w-1/6 shadow-cyan-800  mx-[40%] lg:w-1/4 '>
+              <a href="https://vercel.com/formaxx786s-projects/portfoliox1"><div className='my-10 bg-[#172842] text-neutral-300 font-semibold text-md h-8 flex justify-center items-center rounded-md cursor-pointer shadow-md w-full shadow-cyan-800 lg:w-1/6 '>
               <button>
             PortFolio</button></div></a>
             </div>
